@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+    {% for post in posts.all %}
+        <div class="shadow-lg p-3 mb-2 bg-primary text-white">
+            <h2><a href = "{% url 'detail' post.id %}" class="text-white" >{{post.title}}</a></h2>
+            <p class = "text-white">{{post.created_date}}</p>
+            <p class = "text-white">{{post.summary}}<a href = "{% url 'detail' post.id %}" class="text-white">...more</a></p>
+        </div>
+    {% endfor %}
+{% endblock %}
+

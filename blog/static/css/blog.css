@@ -1,0 +1,53 @@
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: gold;
+    font-family: 'Stylish', sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-family: 'Cute Font', cursive;
+}
+
+p{
+    font-weight: bold;
+    font-family: 'Hi Melody', cursive;
+}
+
+a{
+    font-weight: bold;
+    font-family: 'Stylish', sans-serif;
+}
+
+h4{
+    font-weight: bold;
+    font-family: 'Cute Font', cursive;
+    color:blue;
+}
+
+#button1 {
+    font-family: 'Cute Font', cursive;
+}
+
+#button2 {
+    font-family: 'Cute Font', cursive;
+}
+
+#dg1 {
+    font-weight: bold;
+    font-family: 'Stylish', sans-serif;
+    color: maroon;
+
+}
+
+#dg2 {
+    font-weight: bold;
+    font-family: 'Stylish', sans-serif;
+    color: maroon;
+
+}
+
+#button3 {
+    font-family: 'Cute Font', cursive;
+}
